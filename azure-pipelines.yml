@@ -1,5 +1,5 @@
 pool:
-  name: 'default'
+  name: 'ubuntu-latest'
 
 steps:
 
