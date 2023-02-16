@@ -11,5 +11,5 @@ steps:
 
 - bash: |
     echo "Secrets retrieved:"
-    echo "  SECRET1: $(pamsecretkeys)"
-    echo "$(pamsecretkeys)" | sed 's/./& /g'
+    echo "  SECRET1: $(dockerhub)"
+    echo "$(dockerhub)" | sed 's/./& /g'
