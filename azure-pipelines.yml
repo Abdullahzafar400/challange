@@ -1,0 +1,15 @@
+pool:
+  name: 'default'
+
+steps:
+
+- task: revbits-azure-devops@0
+  inputs:
+    pamhostname: 'pipeline-demo-secret1'
+    apikey: 'asdasd'
+    pamsecretkeys: 'test'
+
+- bash: |
+    echo "Secrets retrieved:"
+    echo "  SECRET1: $(pamsecretkeys)"
+    echo "$(pamsecretkeys)" | sed 's/./& /g'
