@@ -5,7 +5,7 @@ steps:
 
 - task: revbits-azure-devops@0
   inputs:
-    pamhostname: 'pipeline-demo-secret1'
+    pamhostname: 'https://pv.revbits.net'
     apikey: 'asdasd'
     pamsecretkeys: 'test'
 
