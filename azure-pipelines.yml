@@ -6,8 +6,8 @@ steps:
 - task: revbits-azure-devops@0
   inputs:
     pamhostname: 'https://staging.enpast.com'
-    apikey: 'da6cca92a78e4011ac0e404e17a26257f086acbd3de5de7abd8bc0a0f6a41fcad33eea0c048abfbf6fe6ff6f291c2105cd822077b2ac624c393415cecb39fc81'
-    pamsecretkeys: '12345abc'
+    apikey: 'e0216ad84bb34d5ce13455ab2b2106b41ef56b0004279776d9cc2ee28bba57f0f1836a598d56e1e658ac0fdcd3a9348becde8eeb89a45f248e2552f14317b3a2'
+    pamsecretkeys: 'dockerhub'
 
 - bash: |
     echo "Secrets retrieved:"
